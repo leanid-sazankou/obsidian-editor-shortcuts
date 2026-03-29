@@ -1,9 +1,7 @@
 # Code Editor Shortcuts
 
 > [!NOTE]
-> Due to personal circumstances, active development is **paused** on this project until approximately mid-2024. Please continue to use the existing features, submit issues and contribute pull requests, but expect a delayed response.
->
-> Feature requests won't be individually acknowledged but will still be tracked on the [project board](https://github.com/timhor/obsidian-editor-shortcuts/projects/1) as before.
+> This project is currently in a **maintenance state**. I do not have time to actively address any issues on a regular basis. Pull requests and any critical bugs will still be responded to.
 
 This [Obsidian](https://obsidian.md) plugin adds keyboard shortcuts (hotkeys) commonly found in code editors such as Visual Studio Code or Sublime Text.
 
