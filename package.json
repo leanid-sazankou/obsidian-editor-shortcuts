@@ -4,8 +4,10 @@
   "description": "Add keyboard shortcuts (hotkeys) commonly found in code editors such as Visual Studio Code (vscode) or Sublime Text",
   "main": "main.js",
   "scripts": {
-    "start": "esbuild src/main.ts --bundle --external:obsidian --outdir=.  --target=es2016 --format=cjs --sourcemap=inline --watch",
-    "build": "esbuild src/main.ts --bundle --external:obsidian --outdir=.  --target=es2016 --format=cjs",
+    "start": "esbuild src/main-custom.ts --bundle --external:obsidian --outfile=main.js --target=es2016 --format=cjs --sourcemap=inline --watch",
+    "build": "esbuild src/main-custom.ts --bundle --external:obsidian --outfile=main.js --target=es2016 --format=cjs",
+    "link-vault": "node scripts/link-vault.mjs",
+    "setup-hot-reload": "node scripts/setup-hot-reload.mjs",
     "lint": "eslint src --max-warnings=0",
     "test": "jest",
     "prepare": "husky install"
